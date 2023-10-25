@@ -1,11 +1,13 @@
 package org.example;
 import java.lang.*;
+import java.sql.SQLOutput;
 import java.util.Properties;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Переменная окружения(имя пользователя):");
         System.out.println(System.getProperty("user.name"));
         System.out.println("\033[3;31m~(*_*)~");
         System.out.println("\033[3;31m███████████████████████");
